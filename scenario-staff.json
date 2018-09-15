@@ -1,0 +1,64 @@
+{
+  "kit": {
+    "order": 0,
+    "display_text": {
+      "en-US": "T-Shirt",
+      "zh-TW": "衣服領取"
+    },
+    "available_time": "2018/10/04 8:30 +0800",
+    "expire_time": "2018/10/07 12:00 +0800",
+    "countdown": 30,
+    "attr": [
+      {
+        "row_name": "shirt_size",
+        "attr_name": "shirt_size"
+      }
+    ]
+  },
+  "day1checkin": {
+    "order": 1,
+    "display_text": {
+      "en-US": "Day 1 Check-in",
+      "zh-TW": "Day 1 報到"
+    },
+    "available_time": "2018/10/05 7:00 +0800",
+    "expire_time": "2018/10/05 17:00 +0800",
+    "countdown": 0,
+    "deliver_puzzle": 2
+  },
+  "day2checkin": {
+    "order": 2,
+    "display_text": {
+      "en-US": "Day 2 Check-in",
+      "zh-TW": "Day 2 報到"
+    },
+    "available_time": "2018/10/06 7:00 +0800",
+    "expire_time": "2018/10/06 17:00 +0800",
+    "countdown": 0
+  },
+  "day3checkin": {
+    "order": 3,
+    "display_text": {
+      "en-US": "Day 3 Check-in",
+      "zh-TW": "Day 3 報到"
+    },
+    "available_time": "2018/10/07 7:00 +0800",
+    "expire_time": "2018/10/07 17:00 +0800",
+    "countdown": 0
+  },
+  "allowance": {
+    "order": 4,
+    "display_text": {
+      "en-US": "Transport Allowance",
+      "zh-TW": "交通補助"
+    },
+    "available_time": "2018/10/05 12:00 +0800",
+    "expire_time": "2018/10/07 12:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in",
+	"show_rule": {
+	  "row_name": "allowance",
+	  "value_match": "Y"
+	}
+  }
+}
