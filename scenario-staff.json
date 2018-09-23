@@ -55,7 +55,6 @@
     "available_time": "2018/10/05 12:00 +0800",
     "expire_time": "2018/10/07 12:00 +0800",
     "countdown": 30,
-    "lock_message": "Haven't Check-in",
 	"show_rule": {
 	  "row_name": "allowance",
 	  "value_match": "Y"
