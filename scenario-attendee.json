@@ -15,6 +15,16 @@
         "unlock": true
       }
     ],
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
+    ],
     "deliver_puzzle": 2
   },
   "kit": {
@@ -43,6 +53,16 @@
         "staff_query_used": true,
         "unlock": true
       }
+    ],
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
     ]
   },
   "day3checkin": {
@@ -59,6 +79,16 @@
         "id": "kit",
         "staff_query_used": true,
         "unlock": true
+      }
+    ],
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
       }
     ]
   },
