@@ -1,0 +1,156 @@
+{
+  "day1checkin": {
+    "order": 0,
+    "display_text": {
+      "en-US": "Day 1 Check-in",
+      "zh-TW": "Day 1 報到"
+    },
+    "available_time": "2018/10/05 7:00 +0800",
+    "expire_time": "2018/10/05 17:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      },
+      {
+        "id": "reimbursement",
+        "unlock": true
+      },
+      {
+        "id": "shirt",
+        "unlock": true
+      }
+    ],
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
+    ]
+  },
+  "kit": {
+    "order": 1,
+    "display_text": {
+      "en-US": "Welcome Kit",
+      "zh-TW": "迎賓袋"
+    },
+    "available_time": "2018/10/05 8:30 +0800",
+    "expire_time": "2018/10/07 12:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in"
+  },
+  "day2checkin": {
+    "order": 2,
+    "display_text": {
+      "en-US": "Day 2 Check-in",
+      "zh-TW": "Day 2 報到"
+    },
+    "available_time": "2018/10/06 7:00 +0800",
+    "expire_time": "2018/10/06 17:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      },
+      {
+        "id": "reimbursement",
+        "unlock": true
+      },
+      {
+        "id": "shirt",
+        "unlock": true
+      }
+    ],
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
+    ]
+  },
+  "day3checkin": {
+    "order": 3,
+    "display_text": {
+      "en-US": "Day 3 Check-in",
+      "zh-TW": "Day 3 報到"
+    },
+    "available_time": "2018/10/07 7:00 +0800",
+    "expire_time": "2018/10/07 17:00 +0800",
+    "countdown": 0,
+    "related_scenario": [
+      {
+        "id": "kit",
+        "staff_query_used": true,
+        "unlock": true
+      },
+      {
+        "id": "reimbursement",
+        "unlock": true
+      },
+      {
+        "id": "shirt",
+        "unlock": true
+      }
+    ],
+    "attr": [
+      {
+        "row_name": "飲食",
+        "attr_name": "diet",
+        "value": {
+          "素": "vegetarian",
+          "葷": "meat"
+        }
+      }
+    ]
+  },
+  "reimbursement": {
+    "order": 4,
+    "display_text": {
+      "en-US": "Reimbursement",
+      "zh-TW": "補助"
+    },
+    "available_time": "2018/10/05 08:00 +0800",
+    "expire_time": "2018/10/07 12:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in",
+    "show_rule": {
+      "row_name": "reimbursement",
+      "value_match": "Y"
+    },
+    "attr": [
+      {
+        "row_name": "補助金額",
+        "attr_name": "reimbursement_value"
+      }
+    ]
+  },
+  "shirt": {
+    "order": 5,
+    "display_text": {
+      "en-US": "T-Shirt",
+      "zh-TW": "衣服領取"
+    },
+    "available_time": "2018/10/05 8:30 +0800",
+    "expire_time": "2018/10/07 15:00 +0800",
+    "countdown": 30,
+    "lock_message": "Haven't Check-in",
+    "attr": [
+      {
+        "row_name": "shirt_size",
+        "attr_name": "shirt_size"
+      }
+    ]
+  }
+}
