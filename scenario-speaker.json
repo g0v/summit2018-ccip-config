@@ -15,10 +15,6 @@
         "unlock": true
       },
       {
-        "id": "reimbursement",
-        "unlock": true
-      },
-      {
         "id": "shirt",
         "unlock": true
       }
@@ -61,10 +57,6 @@
         "unlock": true
       },
       {
-        "id": "reimbursement",
-        "unlock": true
-      },
-      {
         "id": "shirt",
         "unlock": true
       }
@@ -96,10 +88,6 @@
         "unlock": true
       },
       {
-        "id": "reimbursement",
-        "unlock": true
-      },
-      {
         "id": "shirt",
         "unlock": true
       }
@@ -115,29 +103,8 @@
       }
     ]
   },
-  "reimbursement": {
-    "order": 4,
-    "display_text": {
-      "en-US": "Reimbursement",
-      "zh-TW": "補助"
-    },
-    "available_time": "2018/10/05 08:00 +0800",
-    "expire_time": "2018/10/07 12:00 +0800",
-    "countdown": 30,
-    "lock_message": "Haven't Check-in",
-    "show_rule": {
-      "row_name": "reimbursement",
-      "value_match": "Y"
-    },
-    "attr": [
-      {
-        "row_name": "補助金額",
-        "attr_name": "reimbursement_value"
-      }
-    ]
-  },
   "shirt": {
-    "order": 5,
+    "order": 4,
     "display_text": {
       "en-US": "T-Shirt",
       "zh-TW": "衣服領取"
