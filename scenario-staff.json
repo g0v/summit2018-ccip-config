@@ -85,9 +85,15 @@
     "available_time": "2018/10/05 12:00 +0800",
     "expire_time": "2018/10/07 12:00 +0800",
     "countdown": 30,
-	"show_rule": {
-	  "row_name": "allowance",
-	  "value_match": "Y"
-	}
+    "show_rule": {
+      "row_name": "allowance",
+      "value_match": "是"
+    },
+    "attr": [
+      {
+        "row_name": "出發地",
+        "attr_name": "出發地"
+      }
+    ]
   }
 }
