@@ -13,10 +13,6 @@
         "id": "kit",
         "staff_query_used": true,
         "unlock": true
-      },
-      {
-        "id": "shirt",
-        "unlock": true
       }
     ],
     "attr": [
@@ -55,10 +51,6 @@
         "id": "kit",
         "staff_query_used": true,
         "unlock": true
-      },
-      {
-        "id": "shirt",
-        "unlock": true
       }
     ],
     "attr": [
@@ -86,10 +78,6 @@
         "id": "kit",
         "staff_query_used": true,
         "unlock": true
-      },
-      {
-        "id": "shirt",
-        "unlock": true
       }
     ],
     "attr": [
@@ -100,23 +88,6 @@
           "素": "vegetarian",
           "葷": "meat"
         }
-      }
-    ]
-  },
-  "shirt": {
-    "order": 4,
-    "display_text": {
-      "en-US": "T-Shirt",
-      "zh-TW": "衣服領取"
-    },
-    "available_time": "2018/10/05 8:30 +0800",
-    "expire_time": "2018/10/07 15:00 +0800",
-    "countdown": 30,
-    "lock_message": "Haven't Check-in",
-    "attr": [
-      {
-        "row_name": "shirt_size",
-        "attr_name": "shirt_size"
       }
     ]
   }
